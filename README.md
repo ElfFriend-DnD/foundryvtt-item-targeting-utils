@@ -14,15 +14,22 @@ This module aims to automatically target tokens affected by items based on their
 It does so to enable modules like "Auto Check NPC Save D&D5e" to more accurately aid the GM in resolving combat actions.
 
 ## Compatiblity Notes
+
 Compatible with:
+
 - Minimal Rolling Enhancements
 
 If you're using Midi, everything this module does is already entirely possible in Midi. Do not use this with that.
 
 ### LibWrapper Priority
+
 This module works best when it has been Deprioritized in Libwrapper. If you are seeing chatcards for modules like Auto Roll Save appearing out of order, this is probably why.
 
+<details>
+<summary>Example showing libwrapper priority</summary>
+
 ![Image Showing deprioritization of module in Libwrapper settings.](https://user-images.githubusercontent.com/7644614/145922615-bf04c93a-b8c5-4a02-80be-d40377914383.png)
+</details>
 
 ## Feature Overview
 
@@ -41,3 +48,7 @@ Items that target "Ally" or "Enemy" with a range attached will automatically tar
 ### Self
 
 Items that target "Self" will automatically target the token rolling the item. This is not to be confused with items that have a range of "Self"
+
+### Range Check
+
+Inform the GM if the targeted token or measured template is outside the range of the item being rolled.
