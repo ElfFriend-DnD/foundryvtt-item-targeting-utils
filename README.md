@@ -18,6 +18,10 @@ It does so to enable modules like "Auto Check NPC Save D&D5e" to more accurately
 Compatible with:
 
 - Minimal Rolling Enhancements
+- 5e Helpers
+
+Not Compatible with:
+- DF QOL's measured template functionality doesn't affect how this module calculates token targets. It is recommended to use that module's template targeting if you want its style templates.
 
 If you're using Midi, everything this module does is already entirely possible in Midi. Do not use this with that.
 
