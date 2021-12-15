@@ -2,7 +2,7 @@
   "name": "item-targeting-utils-5e",
   "title": "Item Targeting Utilities DnD5e",
   "description": "A module which notifies the GM when an attack roll hits a targeted token.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Andrew Krigline",
   "authors": [
     {

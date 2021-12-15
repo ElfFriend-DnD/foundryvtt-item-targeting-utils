@@ -71,6 +71,9 @@ class ItemTargetingUtils5eItem {
 
     const messageData = await wrapped(newConfig, ...args);
 
+    // the user has aborted the item usage
+    if (!messageData) return;
+
     const itemHasTemplateFirst = this.hasAreaTarget && game.user.can("TEMPLATE_CREATE") && canvas.activeLayer instanceof TemplateLayer;
 
     if (itemHasTemplateFirst) {
